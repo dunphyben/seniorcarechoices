@@ -1,21 +1,34 @@
 .phone-contact {
-  font-size: 23px;
-  white-space: nowrap;
+  display: block;
   text-align: center;
-  width: 180px;
+  border-bottom: 0;
+  font-size: 23px;
+  text-align: center;
+  position: relative;
+  max-width: 100%;
   margin: 0 0 25px 0px;
   line-height: 20px;
-  display: block;
   text-decoration: none;
   padding: 12px 10px;
-  text-transform: uppercase;
-  cursor: pointer;
   background: #60b7e1;
   color: #fff;
   border-radius: 2px;
   text-shadow: 0 1px 1px rgba(0,0,0,0.2);
 }
 
+.logo-header-hover {
+
+}
+
+.coming-soon-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-bottom: 50px;
+  max-width: 400px;
+  max-height: 400px;
+}
 
 .responsive-slider-parallax {
   max-width: 100%;
