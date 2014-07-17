@@ -1,21 +1,68 @@
 .phone-contact {
-  font-size: 23px;
-  white-space: nowrap;
+  display: block;
   text-align: center;
-  width: 180px;
+  border-bottom: 0;
+  font-size: 23px;
+  text-align: center;
+  position: relative;
+  max-width: 100%;
   margin: 0 0 25px 0px;
   line-height: 20px;
-  display: block;
   text-decoration: none;
   padding: 12px 10px;
-  text-transform: uppercase;
-  cursor: pointer;
   background: #60b7e1;
   color: #fff;
   border-radius: 2px;
   text-shadow: 0 1px 1px rgba(0,0,0,0.2);
 }
 
+.logo-overlay {
+  display: block;
+  text-align: right;
+  border-bottom: 50px;
+  max-width: 40%;
+  max-height: 400px;
+  position:fixed;
+  top: 90px;
+  right: 10px;
+}
+
+.jumbotron-modified {
+  padding: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  /*background: rgba(236, 238, 237, 0.2);*/
+  background: rgba(234, 213, 237, 0.2); 
+}
+
+#jumbo-transparent {
+
+}
+
+.confidence-font {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 150px;
+  font-weight: bold;
+}
+
+.thick-text {
+  font-weight: 900;
+}
+
+.wb-outline {
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.coming-soon-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-bottom: 50px;
+  max-width: 400px;
+  max-height: 400px;
+}
 
 .responsive-slider-parallax {
   max-width: 100%;
@@ -30,7 +77,7 @@
 .responsive-slider-parallax .slides-container {
   position: relative;
   overflow: hidden;
-  background-image: url(../img/background-paralax.jpg);
+  background-image: url(../img/Bay-Bridge-Sunrise.jpg);
   background-size: cover;
   background-position: 0 0;
   cursor: move;
@@ -1530,6 +1577,9 @@ footer hr {
 }
 .color-asbestos {
   color: #7f8c8d;
+}
+.color-charcoal {
+  color: #36454f;
 }
 @media (max-width: 767px) {
   section h1.x-large,
