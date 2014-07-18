@@ -41,6 +41,7 @@ body {
 /* Carousel base class */
 .carousel {
   height: 100%;
+  min-width: 1045px;
 }
 
 /*position: absolute;
@@ -57,17 +58,24 @@ background: #000;*/
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 600px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
   overflow: hidden;
 }
+
+/*.carousel .item > img {
+      max-width: 100%;
+      height: 100%;
+      width: auto;
+      text-align: center;
+      margin: 0 auto;*/
 
 /*Text Overlay*/
 
@@ -85,6 +93,7 @@ background: #000;*/
   z-index: 10;
   background-color: rgba(255,255,255,0.8); 
 }
+
 
 .logo-overlay3 { 
   color:#fff;
@@ -113,13 +122,30 @@ background: #000;*/
 
 
 .overlay3 { 
-  color:#fff;
-  position:absolute;
-  z-index:12;
-  top:50%;
-  left:0;
-  width:100%;
-  text-align:center;
+  color: #fff;
+  position: absolute;
+  z-index: 12;
+  top: 400px;
+  left: 2%;
+  background-color: rgba(255,255,255,0.8); 
+  padding: 10px;
+}
+
+.logo-centered {
+  max-width: 250px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-center-inline { 
+  color: #fff;
+  position: relative;
+  z-index: 12;
+  left: auto;
+  right: auto;
+  background-color: rgba(255,255,255,0.8); 
+  padding: 10px;
 }
 
 /* MARKETING CONTENT
