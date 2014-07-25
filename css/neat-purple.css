@@ -923,6 +923,9 @@ h4.text-right {
 .info-row .info .info-head {
   margin: 0 0 10px 0;
 }
+.info-row .info .info-head2 {
+  margin: 0 0 5px 0;
+}
 .info-row .link {
   width: 20%;
 }
