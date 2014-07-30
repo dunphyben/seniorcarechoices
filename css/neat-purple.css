@@ -876,6 +876,19 @@ h4.text-right {
   color: #fff;
   margin-bottom: 70px;
 }
+.news a.news-link2 {
+  display: block;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.news a.news-link2:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.news a.news-link2:hover .media {
+  background-color: #9b59b6;
+  color: #fff;
+}
 .news a.news-link:hover {
   text-decoration: none;
   color: inherit;
